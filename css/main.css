@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    background-color: black;
+    color: #cccccc;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+}
+
+.palette {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    border-bottom:  rgba(255, 255, 255, 0.15) solid 1px;
+}
+
+.color-item {
+    display: flex;
+    width: auto;
+    height: 32px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.color-element
+{
+    border: white solid 1px;
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+}
+
+.group-container
+{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 50%;
+    margin-left: 16px;
+}
+
+h2
+{
+    align-self: center;
+}
